@@ -1,0 +1,53 @@
+#container {
+	width: 30%;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #FFFFE0;
+}
+
+img {
+  height: auto;
+  resize: both;
+}
+
+input {
+  width: 40%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 1px solid #555;
+}
+
+button[type=submit] {
+  background-color: #037d50;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+a {
+	color: #037d50;
+	text-decoration: none;
+}
+
+a:active {
+	color: #013220;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #012c32;
+	text-decoration: none;
+}
